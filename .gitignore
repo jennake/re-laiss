@@ -7,3 +7,15 @@ src/relaiss/_version.py
 src/relaiss/__pycache__/
 src/relaiss/reference/
 .DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large data / artifacts
+*.fits
+*.fit
+*.npy
+*.npz
+*.csv
+lightcurves/
+iforest_artifacts.joblib
